@@ -20,10 +20,6 @@ public class CorsConfig {
         //添加允许的跨域信息的内容。也就是前端。相当于添加请求的调用端
         //不建议使用*。会导致不管是哪里都可以像我们的服务其进行请求。会有安全隐患。
         config.addAllowedOrigin("http://localhost:8080");
-//        config.addAllowedOrigin("http://shop.z.mukewang.com:8080");
-//        config.addAllowedOrigin("http://center.z.mukewang.com:8080");
-//        config.addAllowedOrigin("http://shop.z.mukewang.com");
-//        config.addAllowedOrigin("http://center.z.mukewang.com");
 //        服务器配置
         config.addAllowedOrigin("http://118.195.254.199:8080");
         config.addAllowedOrigin("http://118.195.254.199:90");
